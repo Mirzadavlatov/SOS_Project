@@ -22,6 +22,11 @@ a {
   text-decoration: none;
 }
 
+body{
+  font-style: normal;
+  background-color: #0A0A0B;
+}
+
 .container {
   width: 1140px;
 }
