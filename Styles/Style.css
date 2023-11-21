@@ -22,14 +22,15 @@ a {
   text-decoration: none;
 }
 
-body{
+body {
   font-style: normal;
-  background-color: #0A0A0B;
+  background-color: #0a0a0b;
 }
 
 .container {
   width: 1140px;
 }
+
 /* Normalize css */
 
 /* Main Section */
@@ -50,58 +51,58 @@ body{
   margin-top: 56px;
 }
 
-.Map{
+.Map {
   width: 860px;
   height: 705px;
 }
 
-.featured-car{
+.featured-car {
   width: 200px;
   height: 463px;
   position: absolute;
   margin: 150px 0 0 5px;
 }
 
-.EspecificationFeatures1{
+.EspecificationFeatures1 {
   width: 127px;
   height: 92px;
   position: absolute;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
   margin: 216px 223px 0 0;
 }
 
-.EspecificationFeatures2{
+.EspecificationFeatures2 {
   width: 127px;
   height: 92px;
   position: absolute;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
   margin: 300px 0 0 230px;
 }
 
-.EspecificationFeatures3{
+.EspecificationFeatures3 {
   width: 127px;
   height: 92px;
   position: absolute;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
   margin: 415px 223px 0 0;
 }
 
-.FeaturedLuxuryCars{
+.FeaturedLuxuryCars {
   margin: 72px auto;
   display: flex;
   justify-content: center;
 }
 
-#title{
-  color: var(--title-color, #F1F2F3);
+#title {
+  color: var(--title-color, #f1f2f3);
   text-align: center;
-  font-family: 'Exo' , sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 140%;
@@ -112,17 +113,18 @@ body{
   justify-content: center;
   margin: 48px 0 0 0;
 }
-.FeaturedLuxuryCars_top > a > img{
+
+.FeaturedLuxuryCars_top > a > img {
   margin: 0 32px;
 }
 
-.FeaturedLuxuryCars_bottom{
+.FeaturedLuxuryCars_bottom {
   flex-wrap: wrap;
   display: flex;
   margin-left: 70px;
 }
 
-.FeaturedLuxuryCars_bottom__card{
+.FeaturedLuxuryCars_bottom__card {
   background-image: url(../Images/Mask.svg);
   background-repeat: no-repeat;
   width: 250px;
@@ -131,46 +133,47 @@ body{
   position: relative;
 }
 
-.FeaturedLuxuryCars_bottom__card > h2{
-  color: var(--title-color, #F1F2F3);
-  font-family: 'Exo' , sans-serif;
+.FeaturedLuxuryCars_bottom__card > h2 {
+  color: var(--title-color, #f1f2f3);
+  font-family: "Exo", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 140%;
   margin: 32px 0 0 24px;
 }
 
-.FeaturedLuxuryCars_bottom__card > p{
-  color: var(--text-color, #BABEC4);
-  font-family: 'Exo' , sans-serif;
+.FeaturedLuxuryCars_bottom__card > p {
+  color: var(--text-color, #babec4);
+  font-family: "Exo", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
   margin: 0 0 32px 24px;
 }
 
-.FeaturedLuxuryCars_bottom__card > img{
+.FeaturedLuxuryCars_bottom__card > img {
   width: 180px;
   height: 94px;
   margin: 0 0 32px 16px;
 }
 
-.FeaturedLuxuryCars_bottom__card > b{
-  color: var(--title-color, #F1F2F3);
-  font-family: 'Exo' , sans-serif;
+.FeaturedLuxuryCars_bottom__card > b {
+  color: var(--title-color, #f1f2f3);
+  font-family: "Exo", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 140%;
   /* position: absolute; */
-  margin: 0 0  30px 24px
+  margin: 0 0 30px 24px;
 }
 
-.FeaturedLuxuryCars_bottom__card > button{
+.FeaturedLuxuryCars_bottom__card > button {
   border-radius: 20px 0px;
-  background: var(--first-color, #4177DC);
+  background: var(--first-color, #4177dc);
   padding: 12px 16px;
   display: flex;
   border: none;
   margin: -15px 0 0 191px;
 }
+
 /* Main Section */
